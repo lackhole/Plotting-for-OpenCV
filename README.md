@@ -8,7 +8,7 @@ In Plot.cpp, there is Canvas class for creating plot image.
 
 Include Plot.cpp file to your main project.
 
-Creating Canvas Examples:
+Creating Canvas Examples:\n
         Canvas example1(600,800,"Example Plot");
         Canvas example2(700,700);
         Canvas example3;
