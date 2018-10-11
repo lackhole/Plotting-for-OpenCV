@@ -1,4 +1,4 @@
-# OpenCV_Plotting
+# Plotting with OpenCV
 Plotting for OpenCV(C++)
 
 Requirements :
