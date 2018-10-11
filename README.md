@@ -8,7 +8,8 @@ In Plot.cpp, there is Canvas class for creating plot image.
 
 Include Plot.cpp file to your main project.
 
-Creating Canvas Examples:\n
+Creating Canvas Examples:
+
         Canvas example1(600,800,"Example Plot");
         Canvas example2(700,700);
         Canvas example3;
@@ -20,11 +21,13 @@ After you declare a empty Canvas, you can draw a plot with number of dots, array
 
 
 For example, let's assume that x[100] and y[100] is initialized.
+
         example1.draw(100,x,y,Scalar(0,0,0));
         example2.draw(30,x,y,Scalar(255,0,0));
         example3.draw(70,x,y,Scalar(0,0,255),"legend");
         
 After you draw a plot, you have to call show() function.
+
         example1.show();
         example2.show();
         example3.show();
