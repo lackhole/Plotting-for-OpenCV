@@ -42,7 +42,7 @@ After you draw a plot, you have to call show() function.
 Additional Options:
 
         example1.grid(true)     // turns on grid
-        example2.expand(false)  // turns off expanding axis range
+        example2.expand(false)  // turns off expanding axis range. default expands 20%
         example3.range(0,10,20,50)      // set range manually.
         example1.write("C:\myfolder\","plot.png")       //save plot.png at C:\myfolder\
         
