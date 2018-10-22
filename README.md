@@ -2,11 +2,12 @@
 Plotting for OpenCV(C++)
 
 Requirements :
-        -OpenCV version 3.4.0 or above
+        -OpenCV version 3.4.0 or later
 
-In Plot.cpp, there is Canvas class for creating plot image.
 
-Include Plot.cpp file to your main project.
+1. Include Plot.cpp to your main project
+2. Create Canvas class for drawing plot(written below)
+3. Draw!
 
 Creating Canvas Examples:
 
@@ -44,7 +45,7 @@ Additional Options:
         example1.grid(true)     // turns on grid
         example2.expand(false)  // turns off expanding axis range. default expands 20%
         example3.range(0,10,20,50)      // set range manually.
-        example1.write("C:\myfolder\","plot.png")       //save plot.png at C:\myfolder\
+        example1.write("C:/myfolder/","plot.png")       //save plot.png at C:\myfolder\
         
         
 
