@@ -160,7 +160,7 @@ public:
 						min.y -= len.y / 10;
 				}
 			}
-			min.y = 0;
+			
 			len.x = max.x - min.x;
 			len.y = max.y - min.y;
 
