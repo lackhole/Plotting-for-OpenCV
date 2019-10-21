@@ -11,6 +11,8 @@ Requirements :
 
 Creating Canvas Examples:
 
+        Canvas instance([weight],[height],["Title Name"]); ::
+        
         Canvas example1(600,800,"Example Plot");
         Canvas example2(700,700);
         Canvas example3;
