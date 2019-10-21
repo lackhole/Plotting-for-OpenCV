@@ -1,7 +1,13 @@
 # Plotting with OpenCV
-Plotting for OpenCV(C++)
+## Plotting for OpenCV(C++)
+</br></br>
+Simple Plot  
+<img src="/Example.png" width="450px" height="300px"></img></br>  
+GUI Plot  
+<img src="/22.PNG" width="450px" height="400px"></img></br>
 
-Requirements :
+
+## Requirements :
         -OpenCV version 3.4.0 or later
 
 
@@ -9,7 +15,7 @@ Requirements :
 2. Create Canvas class for drawing plot(written below)
 3. Draw!
 
-Creating Canvas Examples:
+## Creating Canvas Examples:
 
         Canvas instance([weight],[height],["Title Name"]); ::
         
@@ -42,7 +48,7 @@ After you draw a plot, you have to call show() function.
         You can also show multiple plot at once.
         Given example will show 2 plots.
         
-Additional Options:
+## Additional Options:
 
         example1.grid(true)     // turns on grid
         example2.expand(false)  // turns off expanding axis range. default expands 20%
