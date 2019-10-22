@@ -11,13 +11,13 @@ GUI Plot
         -OpenCV version 3.4.0 or later
 
 
-1. Include Plot.cpp to your main project
+1. Include plot.h, plot.cpp to your main project
 2. Create Canvas class for drawing plot(written below)
 3. Draw!
 
 ## Creating Canvas Examples:
 
-        Canvas instance([weight],[height],["Title Name"]); ::
+        Canvas instance([height],[width],["Title Name"]); ::
         
         Canvas example1(600,800,"Example Plot");
         Canvas example2(700,700);
