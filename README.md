@@ -1,4 +1,4 @@
-# Plotting with OpenCV
+# Plotting for OpenCV
 ## Plotting for OpenCV(C++)
 </br></br>
 Simple Plot  
