@@ -35,7 +35,7 @@ For example, let's assume that x[100] and y[100] is filled with data.
         example1.draw(30,x,y,Scalar(255,0,0));          // draw first 30 numbers of array x and y
         example2.draw(70,x,y,Scalar(0,0,255),"y=sin(x)"); // draw first 70 numbers of array x and y, with name shown with colors.
         
-        Alert : ranges are set by first given plot.
+   + Alert : ranges are set by first given plot.
         if you draw x[]={1,2,3} and y[]={-1,-2,-3} first, then draw x2[]={4,5,6},y2[]={7,8,9} later,
         the range is fixed to x-axis = [1,3] and y-axis = [-3,1], so x2 and y2 is not visible.
         You can solve this by setting range manually, or draw big invisible(white) dummy plot first.
