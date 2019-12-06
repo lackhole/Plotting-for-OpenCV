@@ -37,7 +37,7 @@ For example, let's assume that x[100] and y[100] is filled with data.
         
         Alert : ranges are set by first given plot.
         if you draw x[]={1,2,3} and y[]={-1,-2,-3} first, then draw x2[]={4,5,6},y2[]={7,8,9} later,
-        the range is fixed to x=[1,3] and y=[-3,1], so x2 and y2 is not visible.
+        the range is fixed to x-axis = [1,3] and y-axis = [-3,1], so x2 and y2 is not visible.
         You can solve this by setting range manually, or draw big invisible(white) dummy plot first.
         
         
